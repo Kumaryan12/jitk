@@ -1,0 +1,85 @@
+__pycache__/
+.venv/
+venv/
+.env
+*.log
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# --- Envs ---
+.venv/
+venv/
+.env
+.env.*
+*.env
+
+# --- Logs / temp ---
+*.log
+*.tmp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Build / tooling ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- DB / local data (ONLY if you store locally) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Uploaded/generated media (your case) ---
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# ✅ Exception: keep docs screenshots if you want
+!docs/screenshots/
+!docs/screenshots/*.png
+!docs/screenshots/*.jpg
+!docs/screenshots/*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Database / local storage (if you have)
+*.sqlite3
+data/
+storage/
+uploads/
+
+# PyMuPDF temp (rare but safe)
+*.tmp

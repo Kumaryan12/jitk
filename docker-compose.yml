@@ -1,0 +1,14 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: jitk
+      POSTGRES_PASSWORD: jitk
+      POSTGRES_DB: jitk
+    ports:
+      - "5432:5432"
+    volumes:
+      - jitk_db:/var/lib/postgresql/data
+
+volumes:
+  jitk_db:
