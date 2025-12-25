@@ -150,6 +150,49 @@ Open:
 
 http://localhost:3000
 
+## Policy Document (Demo PDF)
+
+This project requires at least one policy PDF to be ingested so that `/suggest` and `/answer` return results.
+
+ Download the demo policy PDF from Google Drive:  
+**Policy PDF (Google Drive):** <PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE>
+
+### How to use it (recommended steps)
+
+1) **Create a folder to store PDFs**
+```bash
+mkdir -p docs
+```
+
+Download the PDF and place it inside docs/
+
+Download from the Drive link above
+
+Save as:
+
+docs/Homeowners_Policy.pdf (recommended name)
+
+Ingest the PDF into the vector DB
+From backend/ (with .venv activated):
+
+python -m app.ingest ../docs/Homeowners_Policy.pdf Homeowners_Policy
+
+
+Verify ingestion worked
+Now open the UI and try:
+
+Claim Type: Flood
+
+State: Florida
+
+Policy Type: HO-3
+
+Top K: 6
+
+You should start seeing suggestions and cited answers.
+
+
+
 3) Usage
 Suggestions Mode
 
