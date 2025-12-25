@@ -155,7 +155,7 @@ http://localhost:3000
 This project requires at least one policy PDF to be ingested so that `/suggest` and `/answer` return results.
 
  Download the demo policy PDF from Google Drive:  
-**Policy PDF (Google Drive):** <PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE>
+**Policy PDF (Google Drive):** <https://drive.google.com/file/d/1GofzVkCiBAHQTasicl7WntDpkPoApb_s/view?usp=sharing>
 
 ### How to use it (recommended steps)
 
